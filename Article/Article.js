@@ -29,5 +29,5 @@ class Article {
 let articles = document.querySelectorAll('.article');
 
 articles.forEach(() =>{
-
+  return new Article(articles);
 });
